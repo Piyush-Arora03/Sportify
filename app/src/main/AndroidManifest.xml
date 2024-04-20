@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/contact"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CONTACT_MANAGER"
+        tools:targetApi="31">
+        <activity
+            android:name=".liveauction"
+            android:exported="false" />
+        <activity
+            android:name=".auctionregistration"
+            android:exported="false" />
+        <activity
+            android:name=".biding"
+            android:exported="false" />
+        <activity
+            android:name=".liveview"
+            android:exported="false" />
+        <activity
+            android:name=".Auction"
+            android:exported="false" />
+        <activity
+            android:name=".form1"
+            android:exported="false" />
+        <activity
+            android:name=".scorecard"
+            android:exported="false" />
+        <activity
+            android:name=".coachsignup"
+            android:exported="false" />
+        <activity
+            android:name=".navview"
+            android:exported="false" />
+        <activity
+            android:name=".bottomnavview"
+            android:exported="false" />
+        <activity
+            android:name=".sportsN"
+            android:exported="false" />
+        <activity
+            android:name=".sportsname"
+            android:exported="false" />
+        <activity
+            android:name=".User2"
+            android:exported="false" />
+        <activity
+            android:name=".signin"
+            android:exported="false" />
+        <activity
+            android:name=".spalsh"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".singup"
+            android:exported="false" />
+    </application>
+
+</manifest>
